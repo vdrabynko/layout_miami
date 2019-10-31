@@ -1,0 +1,24 @@
+.photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .photos__img {
+    width: calc(50% - 10px);
+    height: 260px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center; }
+    .photos__img--wide_left:first-child {
+      width: calc(67% - 10px); }
+    .photos__img--wide_left:last-child {
+      width: calc(33% - 10px); }
+    .photos__img--wide_right:first-child {
+      width: calc(33% - 10px); }
+    .photos__img--wide_right:last-child {
+      width: calc(67% - 10px); }
+
+/*# sourceMappingURL=photos.css.map */

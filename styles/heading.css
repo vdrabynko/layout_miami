@@ -1,0 +1,33 @@
+.heading {
+  font-size: 48px;
+  line-height: 1;
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 300;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content; }
+  .heading::before, .heading::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: calc(100% + 5px);
+    height: 2px;
+    width: calc(50% - 20px);
+    background-color: #00aaef; }
+  .heading::before {
+    left: 0; }
+  .heading::after {
+    right: 0; }
+  .heading__crown {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 20px;
+    height: 13px;
+    top: calc(100% + 4px);
+    display: block;
+    background-image: url(../images/crown.svg); }
+
+/*# sourceMappingURL=heading.css.map */
