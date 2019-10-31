@@ -5,6 +5,7 @@ li,
 button,
 input,
 textarea,
+article,
 h1,
 h2,
 h3,
@@ -41,7 +42,7 @@ address {
     list-style: none; }
   .nav__item {
     padding: 7px 20px;
-    margin-right: 85px;
+    margin-right: 40px;
     border-radius: 10px; }
     .nav__item-active {
       background-color: #d5d5aa; }
@@ -64,7 +65,7 @@ address {
             align-items: center; } }
 
 .header {
-  height: 765px;
+  height: 100vh;
   background-image: url(../images/header.jpg);
   background-size: cover;
   background-position: center;
